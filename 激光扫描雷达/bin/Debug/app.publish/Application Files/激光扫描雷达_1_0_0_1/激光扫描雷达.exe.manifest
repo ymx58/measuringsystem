@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="激光扫描雷达.exe" version="1.0.0.1" publicKeyToken="e4baa1fd50724adc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="激光扫描雷达" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="激光扫描雷达.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SiXi.Logs.dll" size="16384">
+      <assemblyIdentity name="SiXi.Logs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ok8uHULm2+h1gc2Nf9qt4NoDNWcI4VpAFMQyU4zd//g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="激光扫描雷达.exe" size="22528">
+      <assemblyIdentity name="激光扫描雷达" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+7G0hROyeHd8gtAaJkRzk5zO05xfyJCdN8NReM4AVJA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="激光扫描雷达.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PC-201706181709\Administrator" issuerKeyHash="9f21fc4bfe83a99eb1f5900582c82ede8dad53ac" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bhVKIK7NETk1Sf3X/Enxfsv0gZq0eqmGEEtcXd3vO/g=</DigestValue></Reference></SignedInfo><SignatureValue>VCbbMF+Ke6hHHnmrT+2/7g0xmWUK5YeoUDjHkW3iTF7b/bqZgU+J3CsPw2b25VDMXXmitjsQ+udIF7k5iyLu1jUiaUIBpQkHHOGagZsJ2Z2Td1v/e2UR0fLgW063v/AnML+KVlonNAs9tyYb6A+aoSRA/hixVdXFlcOvAkdtgcQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>193ylesMeh0D3dz76YzDfBbjhi5OIBGV1YDwiAF72JVf3K+eTqWAJlxRQU6Zs+uoBDlJljoiEt7MlI/yaIBbHN4yeSAfI5B18emiB4yJfPuGVNWhBEdcBT6MgRYipi0+E2Oy4PyL7D3B6GzNgGyuVVWZ0anm/g76pVUE8fX9cjs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f83befdd5d5c4b1086a97ab49a81f4cb7ef149fcd7fd49353911cdae204a156e" Description="" Url=""><as:assemblyIdentity name="激光扫描雷达.exe" version="1.0.0.1" publicKeyToken="e4baa1fd50724adc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC-201706181709\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2yGF4H5BsQ1UFgHzuH5TW/idC1tHiHigZuzXdCyZ3s8=</DigestValue></Reference></SignedInfo><SignatureValue>zO1SZ38OgEeAA7PguBiUUe2N+rX5u760Ee3qNEIF/ARc00VBtrUJGZskO/FD6i9zj5YkhhnAUxdJsq+QRNOHsOU2k3F7hC71B5m1sNOKggiltVpU+sSs4s98Yj8B8DTqYODVNRMC7WITC8d1PRTJqgg1eNvLT5uMs+4oEazmV14=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>193ylesMeh0D3dz76YzDfBbjhi5OIBGV1YDwiAF72JVf3K+eTqWAJlxRQU6Zs+uoBDlJljoiEt7MlI/yaIBbHN4yeSAfI5B18emiB4yJfPuGVNWhBEdcBT6MgRYipi0+E2Oy4PyL7D3B6GzNgGyuVVWZ0anm/g76pVUE8fX9cjs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQbdzaCIMntK1IkaV2OdMiZzANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoAUABDAC0AMgAwADEANwAwADYAMQA4ADEANwAwADkAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE3MTAzMTAwMjQxMVoXDTE4MTAzMTA2MjQxMVowRTFDMEEGA1UEAx46AFAAQwAtADIAMAAxADcAMAA2ADEAOAAxADcAMAA5AFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA193ylesMeh0D3dz76YzDfBbjhi5OIBGV1YDwiAF72JVf3K+eTqWAJlxRQU6Zs+uoBDlJljoiEt7MlI/yaIBbHN4yeSAfI5B18emiB4yJfPuGVNWhBEdcBT6MgRYipi0+E2Oy4PyL7D3B6GzNgGyuVVWZ0anm/g76pVUE8fX9cjsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA0UoU2T1o/LrqlCsXtH8OWm9/+8xKPuoYrTJ4C/gTIpL1XJXrhQs5VsPhYht3HIaQKS0BcfzU/Rx9fquvDi1YrCJVnw7QLh9Iw/d+kyg7Hii1wWtrqTB0F9cS3Lp+bnibHXKCxT69rzwBZGqzdZBVC/q4Fzafr26FWyPPvfEPxWQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
